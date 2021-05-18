@@ -1,0 +1,64 @@
+body {
+ display: flex;
+ flex-direction: column;
+}
+
+h1{ font-size: 40px ;
+position: relative;
+top: 15px;
+ left: 70px;
+}
+
+.logo{ position: relative;
+  top: -90px;
+  left: -10px;
+}
+
+#NumPy,#PyTorch,#PyBrain,#Pandas,#OpenCV{ 
+  text-align: justify;
+  
+}
+
+header{
+  font-size: 50px;
+  color: #0fdbff;
+}
+p{ font-size: 20px;}
+
+.a,.b,.c,.d,.e{ font-size: 40px;}
+
+.main-section{ 
+  
+position: relative;
+left: 250px;
+top: 200px;
+height: auto;
+width: 700px;
+}
+
+p{ text-align: justify;}
+
+a{ font-size: 30px;
+ text-decoration: none;
+  position: relative;
+  top: 30px;
+  left: 20px;
+  
+}
+
+nav{ 
+  position: fixed;
+  
+}
+
+ @media (max-height: 900vh;) (max-width: 500vw;) {
+   
+  #navbar{ 
+    
+    position: fixed; 
+    left: 100px;
+ 
+ }
+   
+  
+ }
